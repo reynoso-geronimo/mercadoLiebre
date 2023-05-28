@@ -205,10 +205,23 @@ main section div article img {
 .text-field {
   width: 12rem;
   padding: 5px;
+  
+  
+}
+.text-field:focus{
+  border: solid 3px #1259c3;
+  border-radius: 5px;
+  outline: none;
+  
 }
 #nacimiento {
   width: 12rem;
   padding: 5px;
+}
+#nacimiento:focus{
+  border: solid 3px #1259c3;
+  border-radius: 5px;
+  outline: none;
 }
 .selecciones {
   display: flex;
@@ -228,6 +241,7 @@ input[type="file"] {
   border: 1px solid #666;
   border-radius: 3px;
 }
+
 .botonForm {
   width: 50%;
   margin: 5px;
@@ -386,21 +400,31 @@ main section article i {
     padding-top: 25px;
   }
   .text-field{
-    width: 25rem;
+    width: 16rem;
     font-size: 16px;
   }
   #nacimiento{
-    width: 25rem;
+    width: 16rem;
     font-size: 16px;
   }
   .foto-perfil{
-    width: 25rem;
+    width: 16rem;
     font-size: 16px;
   }
   .formularios div{
     
-    flex-direction: row;
+    width: 17rem;
     font-size: 14px;
+    justify-content: space-evenly;
+  }
+  .selecciones{
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+  .selecciones div{
+    width: 80px;
+    justify-content: center;
   }
   .botonForm{
     font-size: 18px;
