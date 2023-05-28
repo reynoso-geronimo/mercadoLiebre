@@ -99,7 +99,7 @@ header div.burger-menu i {
 header div.burger-menu {
   text-align: center;
 }
-header nav{
+header nav {
   padding-bottom: 10px;
   display: none;
 }
@@ -113,7 +113,6 @@ footer div {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
- 
 }
 
 footer i {
@@ -139,7 +138,6 @@ main section h3 {
   text-align: left;
 }
 
-
 main section article .precios {
   width: 30%;
   font-size: 16px;
@@ -151,12 +149,8 @@ main section article .descuento {
   color: #39b54a;
 }
 
-  
-
-
 main section article {
   margin-bottom: 10px;
-
 }
 main section div article img {
   width: 100%;
@@ -175,8 +169,6 @@ main section div article img {
   display: none;
 
   font-size: 16px;
-  
-  
 }
 
 #formulario-registro {
@@ -205,20 +197,17 @@ main section div article img {
 .text-field {
   width: 12rem;
   padding: 5px;
-  
-  
 }
-.text-field:focus{
+.text-field:focus {
   border: solid 3px #1259c3;
   border-radius: 5px;
   outline: none;
-  
 }
 #nacimiento {
   width: 12rem;
   padding: 5px;
 }
-#nacimiento:focus{
+#nacimiento:focus {
   border: solid 3px #1259c3;
   border-radius: 5px;
   outline: none;
@@ -256,7 +245,7 @@ input[type="file"] {
   border-radius: 5px;
   transition: all 0.3s;
 }
-.confirmar{
+.confirmar {
   width: 100%;
 }
 .botonReset {
@@ -312,7 +301,6 @@ main section article i {
   }
 
   main section article {
-    
     width: 45%;
   }
   main section article img {
@@ -327,13 +315,34 @@ main section article i {
     display: none;
   }
 }
-@media (min-width: 400px){
+@media (min-width: 400px) {
   .descuento {
     text-align: center;
   }
-
 }
 @media (min-width: 769px) {
+  body {
+    font-size: 14px;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  main section article .precios {
+    
+    font-size: 18px;
+  }
+  
+  main section article .descuento {
+   
+    font-size: 16px;
+   
+  }
+  .desc-prod {
+    
+  
+    font-size: 18px;
+  }
+  
   main section article {
     width: 22.5%;
   }
@@ -342,11 +351,13 @@ main section article i {
     flex-wrap: wrap;
     padding: 5%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    
   }
   .logo {
     width: 33%;
     padding: 10px;
+    margin-right: 4%;
   }
   .buscador {
     width: 33%;
@@ -354,79 +365,77 @@ main section article i {
     display: flex;
     align-items: center;
   }
-  .desc-prod{
-    
+  .top-header p{
+    width: 30%;
+  }
+  .desc-prod {
     transition: all 1s;
-    max-height:0px; 
-    transition:max-height 0.3s; 
-    overflow:hidden
+    max-height: 0px;
+    transition: max-height 0.3s;
+    overflow: hidden;
   }
-  article:hover .desc-prod{
-    max-height  : 100px;
-  
+  article:hover .desc-prod {
+    max-height: 100px;
   }
-  article:hover i{
-    transform: rotate(-90deg)
+  article:hover i {
+    transform: rotate(-90deg);
   }
-  article:hover{
+  article:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
-  .botonLogin:hover{
-    background-color: #0022AA;
+  .botonLogin:hover {
+    background-color: #0022aa;
   }
-  .botonForm:hover{
-    background-color: #0022AA;
+  .botonForm:hover {
+    background-color: #0022aa;
   }
-  
-  
-  .botonReset:hover{
+
+  .botonReset:hover {
     background-color: rgb(136, 1, 1);
   }
-  footer{
+  footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  footer div{
+  footer div {
     margin-bottom: 20px;
     width: 30vw;
-    
   }
-  .top-header{
-   
-    
+  footer h5{
+    font-size: 14px;
+  }
+  .top-header {
     padding-bottom: 25px;
     padding-top: 25px;
   }
-  .text-field{
+  .text-field {
     width: 16rem;
     font-size: 16px;
   }
-  #nacimiento{
+  #nacimiento {
     width: 16rem;
     font-size: 16px;
   }
-  .foto-perfil{
+  .foto-perfil {
     width: 16rem;
     font-size: 16px;
   }
-  .formularios div{
-    
+  .formularios div {
     width: 17rem;
     font-size: 14px;
     justify-content: space-evenly;
   }
-  .selecciones{
+  .selecciones {
     flex-direction: row;
     flex-wrap: wrap;
-    
   }
-  .selecciones div{
+  .selecciones div {
     width: 80px;
     justify-content: center;
   }
-  .botonForm{
+  .botonForm {
     font-size: 18px;
   }
 }
