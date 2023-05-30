@@ -119,6 +119,7 @@ footer i {
   font-size: 2em;
   color: #1259c3;
   margin-bottom: 10px;
+  transition: color 500ms;
 }
 footer div p {
   max-width: 70vw;
@@ -399,6 +400,9 @@ main section article i {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  footer i:hover {
+    color:#EAC926;
+}
   footer div {
     margin-bottom: 20px;
     width: 30vw;
